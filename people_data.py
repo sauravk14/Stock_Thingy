@@ -15,6 +15,7 @@ symbo_dict['Intel'] = 'INTC'
 symbo_dict['Boeing'] = 'BA'
 symbo_dict['Target'] = 'TGT'
 symbo_dict['Visa'] = 'V'
+symbo_dict['Pfizer'] = 'PFE'
 
 #a person's preference on each stock
 preferences = dict()
