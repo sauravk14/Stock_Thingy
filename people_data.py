@@ -1,3 +1,5 @@
+from pprint import pprint
+
 #Company Directory
 symbo_dict = dict()
 symbo_dict['Apple'] = 'AAPL'
@@ -44,5 +46,6 @@ def main():
     while name != 'Done':
         fill_pref(name)
         name = input('What is the next persons name? If finished, type "Done".')
-
+    pprint(ppl_to_prefs)
+    return ppl_to_prefs
 main()
